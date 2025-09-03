@@ -1,4 +1,4 @@
-import { createConnection } from '/lib/db';
+import { getPool } from '/lib/db';
 import {NextResponse} from 'next/server';
 
 export async function GET(){
